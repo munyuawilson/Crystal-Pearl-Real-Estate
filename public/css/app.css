@@ -1,0 +1,81 @@
+body{
+
+    font-size: 16px;
+    font-family: "Suisse Bold", Arial, sans-serif;
+}
+.link-bg{
+    background-color: goldenrod;
+}
+
+.first-section{
+    position: relative;
+    
+   
+    
+
+}
+
+
+
+.slide {
+    position: absolute;
+    
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.show {
+    opacity: 1;
+}
+#slide1 {
+    background-image: url('../images/Image1.jpg');
+}
+
+#slide2 {
+    background-image: url('../images/apartment4.jpg');
+}
+
+#slide3 {
+    background-image: url('../images/apartment3.jpg');
+}
+.welcome-message{
+    padding-top: 250px;
+    color: goldenrod;
+    font-weight: bold;
+}
+.next-content{
+
+    padding-top: 450px;
+}
+.main-color{
+    color: goldenrod;
+}
+.next-content p{
+    padding-left: 100px;
+}
+
+
+.featured{
+    background-image: url('../images/Image1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.featured2{
+    background-image: url('../images/apartment4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.padding-content{
+
+    padding-top: 170px;
+    font-weight: bold;
+}
