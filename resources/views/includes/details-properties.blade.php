@@ -1,6 +1,6 @@
 
-<div class="row mt-3">
-    <div class="col featured mx-3 border rounded">
+<div class="row mt-5">
+    <div class="col featured mx-3 border rounded mx-3">
 <div class="text-start text-white padding-content">
 
 <ul class="list-unstyled">
@@ -10,7 +10,7 @@
 </ul>
 </div>
     </div>
-    <div class="col featured2 mx-3 border rounded">
+    <div class="col featured2 mx-3 border rounded mx-3">
     <div class="text-start text-white padding-content">
 
 <ul class="list-unstyled">

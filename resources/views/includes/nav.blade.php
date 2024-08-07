@@ -5,16 +5,16 @@
                 <a class="nav-link text-white" href="/">Kenya</a>
             </li>
             <li class="nav-item link">
-                <a class="nav-link text-white" href="">About Us</a>
+                <a class="nav-link text-white" href="/about-us">About Us</a>
             </li>
             <li class="nav-item link">
-                  <a class="nav-link text-white" href="/samples">Contact Us</a>
+                  <a class="nav-link text-white" href="/contact-us">Contact Us</a>
                 </li>
             <li class="nav-item link">
-                <a class="nav-link text-white" href="/blog">Careers</a>
+                <a class="nav-link text-white" href="/careers">Careers</a>
             </li>
             <li class="nav-item link  link-bg rounded ">
-                <a class="nav-link text-black " href="/sign-up">Login/Signup</a>
+                <a class="nav-link text-black " href="/login">Login/Signup</a>
             </li>
             
         </ul>
@@ -36,13 +36,13 @@
     <div class="collapse navbar-collapse justify-content-end text-center" id="navbarSupportedContent">
         <ul class="navbar-nav mx-3">
             <li class="nav-item link">
-                <a class="nav-link text-black" href="/">Find a Property</a>
+                <a class="nav-link text-black" href="/search-property">Find a Property</a>
             </li>
             <li class="nav-item link">
-                <a class="nav-link text-black" href="">Services</a>
+                <a class="nav-link text-black" href="/about-us">Services</a>
             </li>
             <li class="nav-item link">
-                  <a class="nav-link text-black" href="/samples">People/Offices</a>
+                  <a class="nav-link text-black" href="/contact-us">People/Offices</a>
                 </li>
             <li class="nav-item link">
                 <a class="nav-link text-black" href="/blog">Insights</a>

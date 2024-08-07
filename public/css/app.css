@@ -79,3 +79,27 @@ body{
     padding-top: 170px;
     font-weight: bold;
 }
+.about-bg{
+    background-image: url('../images/giraffe-and-sky-line-nairobi.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.about-us{
+    padding-top: 200px;
+    font-weight: bold;
+    color: goldenrod;
+    font-family: 'TiemposHeadline-Bold' !important;
+}
+
+.fade-in-up {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1s, opacity 1s;
+}
+
+.fade-in-up:hover {
+    opacity: 1;
+    transform: translateY(-20px);
+}
