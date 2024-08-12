@@ -1,3 +1,3 @@
 <h2 class="text-center  welcome-message">Welcome to Crystal Pearl Real Estate</h2>
 
-<p class="text-white text-center pt-4">Welcome to Crystal Pearl Real Estate, your gateway to high-yield real estate investments in the heart of Africa. Our proven track record in real estate development offers investors an average return on investment (ROI) of over 15% annually, making us a leader in the Kenyan real estate market.</p>
+<p class="text-white fw-bold text-center pt-4 pb-5">Welcome to Crystal Pearl Real Estate, your gateway to high-yield real estate investments in the heart of Africa. Our proven track record in real estate development offers investors an average return on investment (ROI) of over 15% annually, making us a leader in the Kenyan real estate market.</p>

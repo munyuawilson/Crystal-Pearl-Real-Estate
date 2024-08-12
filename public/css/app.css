@@ -25,7 +25,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    opacity: 0;
+    opacity: 0.4;
     transition: opacity 1s ease-in-out;
 }
 .show {
@@ -43,7 +43,7 @@ body{
     background-image: url('../images/apartment3.jpg');
 }
 .welcome-message{
-    padding-top: 250px;
+    padding-top: 150px;
     color: goldenrod;
     font-weight: bold;
 }
@@ -54,9 +54,7 @@ body{
 .main-color{
     color: goldenrod;
 }
-.next-content p{
-    padding-left: 100px;
-}
+
 
 
 .featured{
@@ -76,8 +74,9 @@ body{
 
 .padding-content{
 
-    padding-top: 170px;
+    padding-top: 150px;
     font-weight: bold;
+    
 }
 .about-bg{
     background-image: url('../images/giraffe-and-sky-line-nairobi.jpg');
@@ -102,4 +101,154 @@ body{
 .fade-in-up:hover {
     opacity: 1;
     transform: translateY(-20px);
+}
+.card-header.bg-gold {
+    background-color: #f5c518; /* Gold color for card headers */
+    color: #000; /* Black text for contrast */
+}
+.card-header.bg-dark {
+    background-color: #000; /* Black for dark theme */
+    color: #f5c518; /* Gold text for contrast */
+}
+.btn-gold {
+    background-color: #f5c518; /* Gold button background */
+    border-color: #f5c518; /* Gold button border */
+    color: #000; /* Black text on button */
+}
+.btn-dark {
+    background-color: #000; /* Black button background */
+    border-color: #000; /* Black button border */
+    color: #f5c518; /* Gold text on button */
+}
+.list-unstyled li {
+    margin-bottom: 0.75rem;
+}
+.list-unstyled .fa {
+    margin-right: 0.5rem;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.card:hover .btn-gold {
+    background-color: #f7b733; /* Lighter gold on hover */
+    border-color: #f7b733; /* Lighter gold border on hover */
+}
+.card:hover .btn-dark {
+    background-color: #222; /* Darker black on hover */
+    border-color: #222; /* Darker black border on hover */
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+.card-body {
+  
+    padding: 1rem;
+}
+.card-title {
+    font-size: 1.25rem;
+    color: #000;
+}
+.card-text {
+    color: #000;
+    font-size: 0.9rem;
+}
+.fade-in-up {
+    animation: fadeInUp 1s ease-out;
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 767.98px) {
+    .card-img-top {
+        height: 150px; /* Adjust image height for smaller screens */
+    }
+    .card-body {
+        padding: 0.75rem; /* Reduce padding for smaller screens */
+    }
+    .card-title {
+        font-size: 1.1rem; /* Adjust font size for smaller screens */
+    }
+    .card-text {
+        font-size: 0.85rem; /* Adjust font size for smaller screens */
+    }
+}
+
+.ceo-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.ceo-img {
+    border-radius: 15%;
+    border: 5px solid white; /* Dark border to match the theme */
+}
+.ceo-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.ceo-title {
+    font-size: 1.25rem;
+    color: #6c757d; /* Bootstrap secondary color */
+}
+.ceo-description {
+    font-size: 1rem;
+    color: #212529; /* Bootstrap text color */
+}
+
+.p1{
+    background-image: url('../images/p1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+
+.p2{
+
+    background-image: url('../images/p2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.p3{
+
+    background-image: url('../images/p3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.p4{
+
+    background-image: url('../images/p4.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.p5{
+
+    background-image: url('../images/p5.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
 }

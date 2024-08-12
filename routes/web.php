@@ -34,6 +34,31 @@ Route::get('/login', function () {
 Route::get('/signup', function () {
     return view('pages.signup');
 });
+Route::get('/dashboard', function () {
+    return view('pages.client.dashboard');
+});
+
+Route::get('/property', function () {
+    return view('pages.client.property');
+});
+Route::get('/completed', function () {
+    return view('pages.client.completed');
+});
+Route::get('/projects', function () {
+    return view('pages.client.project');
+});
+Route::get('/rent', function () {
+    return view('pages.client.rent');
+});
+Route::get('/report', function () {
+    return view('pages.client.report');
+});
+Route::get('/progress', function () {
+    return view('pages.client.progress');
+});
+Route::get('/pay', function () {
+    return view('pages.client.pay');
+});
 
 
 

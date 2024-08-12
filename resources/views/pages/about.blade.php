@@ -30,44 +30,76 @@
 
 <div class="container mt-5">
         <h1 class="main-color">Crystal Pearl Real Estate</h1>
-        <p>Founded in 2018, Crystal Pearl Real Estate began as a small venture focusing on land buying and selling. Over the years, we have grown into a full-service real estate firm, known for our integrity, expertise, and dedication to customer satisfaction. With a portfolio that includes over 5 residential apartments, 10 townhouses/villas, and more than 2,000 title deeds issued, we have established ourselves as a trusted name in the Kenyan real estate market.</p>
+<p>Crystal Pearl Real Estate is a leading real estate company based in Nairobi, Kenya. With expertise in land acquisition, property development, and property management, we are dedicated to delivering comprehensive real estate solutions. Our goal is to maximize value for clients and investors through strategic planning, innovative development, and a commitment to excellence.</p>
+  
+<p>Founded in 2018, Crystal Pearl Real Estate began as a small venture focusing on land buying and selling. Over the years, we have grown into a full-service real estate firm, known for our integrity, expertise, and dedication to customer satisfaction. With a portfolio that includes over 5 residential apartments, 10 townhouses/villas, and more than 2,000 title deeds issued, we have established ourselves as a trusted name in the Kenyan real estate market.</p>
+<h4 class="">Vision</h4>
+<p>To be recognized as the top real estate developer in Kenya by providing exceptional services and attracting real estate investors locally and from the diaspora.</p>
+<h4 class="">Mision</h4>
+<p>To deliver diverse and high-quality real estate services that exceed client expectations, fostering sustainable growth and development within the communities we serve.</p>
 
-        <h2 class="pt-5 pb-5">Core Services</h2>
+
+<h2 class="pt-5 pb-5">Core Services</h2>
+        
+        <div class="container my-5">
         <div class="row mt-5">
-    <div class="col text-center ">
-    <img src="{{ asset('/images/apartment4.jpg') }}" class="rounded" alt="logo"  height="250px">
-    <h4 class="text-black fw-bold pt-3">Property Management</h4>  
-    <p class="text-black text-start pt-3">We offer expert guidance in land transactions, ensuring secure and profitable investments. Our team conducts thorough due diligence to verify property titles and ensure compliance with legal requirements.</p>  
-</div>
-    <div class="col text-center">
-    <img src="{{ asset('/images/commercial.jpeg') }}" class="rounded" alt="logo"  height="250px">
-<h4 class="text-black fw-bold pt-3">Valuation</h4>
-<p class="text-black text-start  pt-3">With over 1,000 property valuations completed, our experienced professionals provide accurate and reliable assessments, helping clients make informed investment decisions.</p>
-    </div>
-</div>
-<div class="row mt-5">
-    <div class="col text-center ">
-    <img src="{{ asset('/images/apartment4.jpg') }}" class="rounded" alt="logo"  height="250px">
-    <h4 class="text-black fw-bold pt-3">Real Estate Development</h4>  
-    <p class="text-black text-start pt-3">We have successfully developed over 5 residential apartments, with a focus on quality, innovation, and sustainability. Our projects are designed to meet the needs of modern homeowners and investors.</p>  
-</div>
-    <div class="col text-center">
-    <img src="{{ asset('/images/commercial.jpeg') }}" class="rounded" alt="logo"  height="250px">
-<h4 class="text-black fw-bold pt-3">Property Buying and Selling</h4>
-<p class="text-black text-start  pt-3">We offer tailored leasing and letting solutions for both residential and commercial properties. Our team works closely with tenants and landlords to ensure a smooth and efficient process.</p>
-    </div>
-</div>
-<div class="row mt-5">
-    <div class="col text-center ">
-    <img src="{{ asset('/images/apartment4.jpg') }}" class="rounded" alt="logo"  height="250px">
-    <h4 class="text-black fw-bold pt-3">Land Subdivision</h4>  
-    <p class="text-black text-start pt-3">Our efficient and legally compliant land subdivision services maximize land value and usability, helping landowners unlock the full potential of their properties.</p>  
-</div>
-    
-</div>
-</div>
+            <!-- Property Management -->
+            <div class="col-md-6 mb-4 fade-in-up">
+                <div class="card border-dark">
+                    <img src="{{ asset('/images/apartment4.jpg') }}" class="card-img-top rounded" alt="Property Management">
+                    <div class="card-body text-center ">
+                        <h4 class="card-title fw-bold">Property Management</h4>
+                        <span class="card-text">Our comprehensive property management services enhance property value and optimize returns. We handle tenant placement, rent collection, maintenance, and financial reporting, providing peace of mind to property owners.</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Valuation -->
+            <div class="col-md-6 mb-4 fade-in-up">
+                <div class="card border-dark">
+                    <img src="{{ asset('/images/apartment2.jpeg') }}" class="card-img-top rounded" alt="Valuation">
+                    <div class="card-body text-center ">
+                        <h4 class="card-title fw-bold">Valuation</h4>
+                        <span class="card-text">With over 1,000 property valuations completed, our experienced professionals provide accurate and reliable assessments, helping clients make informed investment decisions.</span>
+                    </div>
+                </div>
+            </div>
         </div>
-
+        <div class="row mt-5"> 
+            <!-- Real Estate Development -->
+            <div class="col-md-6 mb-4 fade-in-up">
+                <div class="card border-dark">
+                    <img src="{{ asset('/images/apartment4.jpg') }}" class="card-img-top rounded" alt="Real Estate Development">
+                    <div class="card-body text-center ">
+                        <h4 class="card-title fw-bold">Real Estate Development</h4>
+                        <span class="card-text">We have successfully developed over 5 residential apartments, with a focus on quality, innovation, and sustainability. Our projects are designed to meet the needs of modern homeowners and investors.</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Property Buying and Selling -->
+            <div class="col-md-6 mb-4 fade-in-up">
+                <div class="card border-dark">
+                    <img src="{{ asset('/images/apartment2.jpeg') }}" class="card-img-top rounded" alt="Property Buying and Selling">
+                    <div class="card-body text-center ">
+                        <h4 class="card-title fw-bold">Property Buying and Selling</h4>
+                        <span class="card-text">We offer tailored leasing and letting solutions for both residential and commercial properties. Our team works closely with tenants and landlords to ensure a smooth and efficient process.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <!-- Land Subdivision -->
+            <div class="col-md-12 mb-4 fade-in-up">
+                <div class="card border-dark">
+                    <img src="{{ asset('/images/apartment4.jpg') }}" class="card-img-top rounded" alt="Land Subdivision">
+                    <div class="card-body text-center ">
+                        <h4 class="card-title fw-bold">Land Subdivision</h4>
+                        <span class="card-text">Our efficient and legally compliant land subdivision services maximize land value and usability, helping landowners unlock the full potential of their properties.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
         @include('includes.footer')
 </body>
 
