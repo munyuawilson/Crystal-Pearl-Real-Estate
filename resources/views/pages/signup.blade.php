@@ -25,7 +25,7 @@
 
 <div class="d-flex  justify-content-center mt-5  border px-3 pt-3 pb-5 " >
 
-<form action="/admin/login" method="post">
+<form action="/signup" method="post">
 @csrf
     
     <div class="border border-black fw-black px-3 pt-3 pb-2 rounded shadow">
@@ -52,7 +52,7 @@
 <input type="submit" class="btn link-bg " value="Signup"> 
     
 </div>
-<a href="/signup" style="color: #999;">Have an account?</a>
+<a href="/login" style="color: #999;">Have an account?</a>
 
 
 

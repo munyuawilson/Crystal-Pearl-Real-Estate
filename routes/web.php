@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+
 
 
 //get
@@ -67,3 +69,6 @@ Route::get('/pay', function () {
 Route::post('/login', function () {
     return view('pages.login');
 });
+
+Route::post('/signup', "App\Http\Controllers\LoginController@signup");
+Route::post('/login', [LoginController::class, 'login'])->name('login');

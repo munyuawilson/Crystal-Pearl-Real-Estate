@@ -25,7 +25,7 @@
 
 <div class="d-flex  justify-content-center mt-5  border px-3 pt-3 pb-5 " >
 
-<form action="/admin/login" method="post">
+<form action="login" method="post">
 @csrf
     
     <div class="border border-black fw-black px-3 pt-3 pb-2 rounded shadow">

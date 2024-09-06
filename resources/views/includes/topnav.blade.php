@@ -21,7 +21,7 @@
                         
                         <li class="px-3 dropdown">
   <a class=" btn  dropdown-toggle text-black" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-  <span class="text-black">user</span>
+  <span class="text-black">Welcome, {{ session('user_name') }}!</span>
 </a>
   <ul class="dropdown-menu">
   <li><a class="dropdown-item" href=""><i class="fas fa-user-edit"></i> Edit Profile</a></li>

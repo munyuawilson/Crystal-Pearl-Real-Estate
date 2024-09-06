@@ -25,7 +25,7 @@
     <nav class="navbar navbar-expand-md navbar-light nav-background text-black">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="{{ asset('/images/logocrystal.png') }}" alt="logo" height="50px">
+                <img src="{{ asset('/images/Crystal Pearl Real estate logo-01.jpg') }}" alt="logo" height="50px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

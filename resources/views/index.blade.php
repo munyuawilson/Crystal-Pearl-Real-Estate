@@ -65,7 +65,7 @@ arrow_right_alt
             <!-- Real Estate Development -->
             <div class="col-md-6 mb-4 fade-in-up">
                 <div class="card border-dark">
-                    <img src="{{ asset('/images/apartment4.jpg') }}" class="card-img-top rounded" alt="Real Estate Development">
+                    <img src="{{ asset('/images/REd.jpeg') }}" class="card-img-top rounded" alt="Real Estate Development">
                     <div class="card-body text-center ">
                         <h4 class="card-title fw-bold">Real Estate Development</h4>
                         <span class="card-text">We have successfully developed over 5 residential apartments, with a focus on quality, innovation, and sustainability. Our projects are designed to meet the needs of modern homeowners and investors.</span>
@@ -87,7 +87,7 @@ arrow_right_alt
             <!-- Land Subdivision -->
             <div class="col-md-12 mb-4 fade-in-up">
                 <div class="card border-dark">
-                    <img src="{{ asset('/images/apartment4.jpg') }}" class="card-img-top rounded" alt="Land Subdivision">
+                    <img src="{{ asset('/images/land.jpeg') }}" class="card-img-top rounded" alt="Land Subdivision">
                     <div class="card-body text-center ">
                         <h4 class="card-title fw-bold">Land Subdivision</h4>
                         <span class="card-text">Our efficient and legally compliant land subdivision services maximize land value and usability, helping landowners unlock the full potential of their properties.</span>
@@ -137,6 +137,125 @@ arrow_right_alt
     </div>
 </div>
 
+
+
+
+
+
+
+
+
+<div class="container my-5">
+        <h2 class="mb-4 text-center main-color">Ongoing Projects</h2>
+
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ asset('/images/onem1.jpeg') }}" class="project-image" alt="Project A Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project A</h5>
+                        <p class="card-text">Brief description of Project A...</p>
+                        <p class="time-marker">One month ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ asset('/images/onem2.jpeg') }}" class="project-image" alt="Project B Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project B</h5>
+                        <p class="card-text">Brief description of Project B...</p>
+                        <p class="time-marker">One month ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ asset('/images/onem3.jpeg') }}"class="project-image" alt="Project C Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project C</h5>
+                        <p class="card-text">Brief description of Project C...</p>
+                        <p class="time-marker">One month ago</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add more project cards here -->
+        </div>
+
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ asset('/images/yes1.jpeg') }}"class="project-image" alt="Project A Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project A</h5>
+                        <p class="card-text">Brief description of Project A...</p>
+                        <p class="time-marker">Yesterday</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ asset('/images/yes2.jpeg') }}" class="project-image" alt="Project B Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project B</h5>
+                        <p class="card-text">Brief description of Project B...</p>
+                        <p class="time-marker">Yesterday</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ asset('/images/yes3.jpeg') }}"class="project-image" alt="Project C Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project C</h5>
+                        <p class="card-text">Brief description of Project C...</p>
+                        <p class="time-marker">Yesterday</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add more project cards here -->
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ asset('/images/today1.jpeg') }}"  class="project-image"  alt="Project A Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project A</h5>
+                        <p class="card-text">Brief description of Project A...</p>
+                        <p class="time-marker">Today </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ asset('/images/today2.jpeg') }}" class="project-image" alt="Project B Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project B</h5>
+                        <p class="card-text">Brief description of Project B...</p>
+                        <p class="time-marker">Today</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ asset('/images/today3.jpeg') }}"  class="project-image" alt="Project C Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Project C</h5>
+                        <p class="card-text">Brief description of Project C...</p>
+                        <p class="time-marker">Today</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add more project cards here -->
+        </div>
+
+    </div>
 <div class="container mt-5">
 <h2 class="text-center main-color fw-bold pb-3 fade-in-up">Featured Properties</h2>
 @include('includes.details-properties')
@@ -144,9 +263,35 @@ arrow_right_alt
 @include('includes.details-properties')
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <div class="container mt-5">
 <h2 class="text-center main-color fw-bold pb-3 fade-in-up">Completed Properties</h2>
-@include('includes.details-properties')
+
+<div class="row mt-5">
+    <div class="col  text-center border rounded px-5 pt-4 pb-3 mt-2 mx-2">
+<img src="{{asset('images/completed1.jpeg')}}" alt="" height="250px">
+    </div>
+    <div class="col  border rounded px-5 pt-4 pb-3 mt-2 mx-2">
+    <div class="text-center text-white ">
+
+    <img src="{{asset('images/completed2.jpeg')}}" alt="" height="250px">
+
+</div>
+    </div>
+
+</div>
 
 @include('includes.details-properties')
 </div>
